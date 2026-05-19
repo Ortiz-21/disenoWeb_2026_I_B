@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuenta</title>
+     
+    
+
+</head>
+
+<body>
+    <div id="Contenedor" style="width: 500px;">
+        <div style="display: flex; align-items: center; gap: 20px;">
+    <h2   style="color: midnightblue; text-align: center;">ENCUESTA LABORAL </h2>
+        <img src="img/frm.gif" alt="1" width="100">   
+    </div>
+    <br>
+    
+
+    <form style="color: midnightblue; background-color: rgb(213, 213, 247); border-color: midnightblue;" id="Formulario01" name="Formulario01" method="post" action="data.php" >
+        <fieldset  id="datos_personales">
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre y Apellidos</label>
+            <input type="text" name="nombre" id="nombre"> <br>
+            <br>
+            <label for="dni">Dni</label>
+            <input type="text" name="dni" id="dni" maxlength="9"><br>
+            <br>
+            <label for="direccion">Direccion</label>
+            <input type="text" name="direccion" id="direccion"><br>
+            <br>
+            <label for="telefono">Telef | Cel.</label>
+            <input type="tel" name="telefono" id="telefono"><br>
+            <br>
+            <label for="miEtiqueta">Fecha Ingreso</label><br>
+            <select name="miEtiqueta" id="miEtiqueta">
+                <option value="X" selected="selected">...</option>
+                <option value="A">11/05/2026</option>
+                <option value="B">10/05/2026</option>
+            </select><br>
+            <br>
+            <label for="miEtiqueta">Puesto de trabajo </label>
+            <select name="miEtiqueta" id="miEtiqueta">
+                <option value="X" selected="selected">...</option>
+                <option value="A">Atencion al cliente</option>
+                <option value="B">Promotor</option>
+            </select><br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+        <br>
+        <fieldset id="Estado civil">
+            <legend>Datos Personales</legend>
+            <input type="radio" name="Opciones">Soltero <br>
+            <input type="radio"name="Opciones">Casadobr <br>
+            <input type="radio" name="Opciones">Viudo
+        </fieldset>
+        <br>
+        <fieldset id="Nivel">
+            <legend>Nivel de Satisfacción</legend>
+            <input type="checkbox" name="Opciones"> Se siente satisfecho con el trabajo que realiza <br>
+            <br>
+            <input type="checkbox" name="Opciones"> Los canales de comunicación son adecuados <br>
+            <br>
+            <input type="checkbox" name="Opciones"> El trato de los directivos es cordial y efectivo <br>
+            <br>
+            <input type="checkbox" name="Opciones"> El ambiente laboral es el adecuado para mi trabajo <br>
+        </fieldset>
+        <br>
+        <fieldset id="observaciones">
+            <legend>Observaciones</legend>
+            <textarea name="observ" id="observ" rows="14" cols="40"></textarea>
+        </fieldset>
+        <br>
+        <div id="botones">
+            <input type="reset" class="btn" value="Nuevo" style="background-color: midnightblue; color: white;">
+            <input type="submit" class="btn" value="Enviar" style="background-color: midnightblue; color: white;">
+            <br>
+            <br>
+        </div>
+
+
+
+
+    </form>
+    </div>
+
+</body>
+
+</html>

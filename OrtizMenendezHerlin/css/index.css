@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    font-family: arial;
+    box-sizing: border-box;
+}
+.cabeza{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    border-bottom: 2px solid #002147
+
+    
+}
+.cabeza1{
+    display: contents;
+}
+.cabeza h1{
+    color: rgb(1, 30, 64);
+    font-weight: bold;
+    margin: 20px;
+}
+.cabeza img{
+    width: 30px;
+    height: 10;
+
+}
+.menu1{
+    margin-top: 10px;
+    padding-left:40%;
+    margin: 25px;
+    
+
+}
+.menu1 a{
+    color:  rgb(1, 30, 64);
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 14px;
+    
+}
+
+.cuerpo{
+    background-color: rgb(1, 30, 64);
+    display: flex;
+    padding: 20px;
+    float: left;
+}
+.cuerpo img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+.cuerpo p {
+    color: white;
+}
+label{
+    color: white;
+}
+textarea{
+    row: 14px;
+}
+nav{
+background-color: white;
+ border-bottom: 2px solid #002147
+
+}
+.menu2 a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(1, 30, 64);
+}
+
+aside{
+    background-color: white;
+    display: flex;
+}
+aside p{
+    margin: 10px;
+    color: rgb(1, 30, 64);
+}
+aside img{
+    width: 120px
+}
+aside h3{
+    margin:20px;
+}
+.intereses{
+    margin: 30px;
+    text-align: left;
+    display: flex
+}
+.intereses1{
+      margin: 30px;
+    text-align: left;
+    display: flex
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+      padding: 20px 5%;
+     background-color: rgb(1, 30, 64);
+     border-top:2px solid white;
+     clear: left;
+     
+    
+}
+footer > div {
+    flex: 1;
+}
+footer a{
+     display: block;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+footer p {
+    font-size: 0.75rem;
+    color: #666;
+}
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: 1px solid #333;
+    background: #eee;
+}
+.lista-logos li img{
+    width: 20px;
+    height: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
