@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agendav2.css">
+    <title>AgendaV2</title>
+</head>
+
+<body>
+    <div class="formulario">
+        <h2>Agregar Contacto</h2>
+        <form id="formulario">
+            <div class="campos">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre">
+            </div>
+
+            <div class="campos">
+                <label for="telefono">Telefono:</label>
+                <input type="text" id="telefono">
+            </div>
+
+            <div class="botones">
+                <input type="button" value="Guardar" id="guardarbtn">
+                <input type="button" value="Buscar" id="buscarbtn">
+                <input type="button" value="Eliminar" id="eliminarbtn">
+                <input type="button" value="Elimiar todos" id="eliminarTbtn">
+            </div>
+
+
+
+        </form>
+
+    </div>
+
+    <div class="contactos">
+        <h2>Lista de contactos</h2>
+        <table class="tabla-contactos">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Celular</th>
+                </tr>
+            </thead>
+            <tbody id="listaContactos">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="js/agendaV2.js"></script>
+</body>
+
+</html>
