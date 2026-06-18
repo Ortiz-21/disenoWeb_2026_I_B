@@ -1,0 +1,44 @@
+ .ecena {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 0;
+    }
+
+    .sol-imagen {
+      position: relative;
+      width: 300px;
+      height: 300px;
+    }
+
+    .sol {
+      position: absolute;
+      top: 50%;
+      left: 42%;
+      width: 180px;
+      height: 180px;
+      margin: -90px 0 0 -90px;
+      border-radius: 50%;
+      background-color: gold;
+    }
+
+    .rayo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-left: 24px solid transparent;
+      border-right: 24px solid transparent;
+      border-bottom: 58px solid orange;
+      transform-origin: 0 0;
+    }
+
+    .rayo:nth-child(1)  { transform: translate(-50%, 0) rotate(0deg)   translateY(-150px); }
+    .rayo:nth-child(2)  { transform: translate(-50%, 0) rotate(45deg)  translateY(-150px); }
+    .rayo:nth-child(3)  { transform: translate(-50%, 0) rotate(90deg)  translateY(-150px); }
+    .rayo:nth-child(4)  { transform: translate(-50%, 0) rotate(135deg) translateY(-150px); }
+    .rayo:nth-child(5)  { transform: translate(-50%, 0) rotate(180deg) translateY(-150px); }
+    .rayo:nth-child(6)  { transform: translate(-50%, 0) rotate(225deg) translateY(-150px); }
+    .rayo:nth-child(7)  { transform: translate(-50%, 0) rotate(270deg) translateY(-150px); }
+    .rayo:nth-child(8)  { transform: translate(-50%, 0) rotate(315deg) translateY(-150px); }
