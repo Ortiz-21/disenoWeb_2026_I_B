@@ -15,8 +15,8 @@
       position: absolute;
       top: 50%;
       left: 42%;
-      width: 180px;
-      height: 180px;
+      width: 160px;
+      height: 160px;
       margin: -90px 0 0 -90px;
       border-radius: 50%;
       background-color: gold;
@@ -42,3 +42,30 @@
     .rayo:nth-child(6)  { transform: translate(-50%, 0) rotate(225deg) translateY(-150px); }
     .rayo:nth-child(7)  { transform: translate(-50%, 0) rotate(270deg) translateY(-150px); }
     .rayo:nth-child(8)  { transform: translate(-50%, 0) rotate(315deg) translateY(-150px); }
+
+    .sol-imagen {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    width: 0;
+    height: 0;
+    animation: girar 8s linear infinite;
+  }
+
+  @keyframes girar {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
+  @keyframes pulsar {
+    0%, 100% { transform: translate(-50%, -50%) scale(1); }
+    50%       { transform: translate(-50%, -50%) scale(1.08); }
+  }
+
+  .sol {
+    top: 80%;
+    left: 82%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    animation: pulsar 3s ease-in-out infinite;
+  }

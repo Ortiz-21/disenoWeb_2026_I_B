@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vértice - Concept Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <div class="bg-dark text-secondary py-2 border-bottom border-secondary border-opacity-25">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap small">
+            <div>
+                <a href="#" class="text-secondary text-decoration-none me-3 hover-white">Inicio</a>
+                <a href="#" class="text-secondary text-decoration-none me-3 hover-white">Acerca de</a>
+                <a href="#" class="text-secondary text-decoration-none me-3 hover-white">Contacto</a>
+                <a href="#" class="text-secondary text-decoration-none hover-white">Faq's</a>
+            </div>
+            <div class="mt-1 mt-sm-0">
+                <a href="#" class="text-secondary text-decoration-none me-3 hover-white">Mi Cuenta <i class="bi bi-person-fill"></i></a>
+                <a href="#" class="text-secondary text-decoration-none me-3 hover-white">PEN (S/) <i class="bi bi-chevron-down"></i></a>
+                <a href="#" class="text-secondary text-decoration-none hover-white">Español <i class="bi bi-chevron-down"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row align-items-center g-3">
+            <div class="col-md-4 text-center text-md-start">
+                <h1 class="fw-black logo-vertice m-0">D' mod<i class="bi bi-hexagon-fill"></i></h1>
+            </div>
+            <div class="col-md-5">
+                <div class="input-group input-buscar-custom">
+                    <input type="text" class="form-control border-dark-subtle" placeholder="Buscar colecciones, calzado, accesorios...">
+                    <button class="btn btn-dark" type="button"><i class="bi bi-search"></i> Buscar</button>
+                </div>
+            </div>
+            <div class="col-md-3 text-center text-md-end">
+                <div class="redes-sociales-iconos">
+                    <a href="#" class="text-dark mx-2 fs-5"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-dark mx-2 fs-5"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-dark mx-2 fs-5"><i class="bi bi-tiktok"></i></a>
+                    <a href="#" class="text-dark mx-2 fs-5"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-between text-uppercase fw-semibold tracking-wider">
+                    <li class="nav-item"><a class="nav-link active" href="#">Nueva Colección</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Caballeros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Damas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Calzado</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Accesorios</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="#">Hot Sale %</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row">
+            
+            <aside class="col-lg-3 mb-4">
+                <div class="card border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="card-header bg-dark text-white fw-bold py-3 border-0">Filtrar por Marca</div>
+                    <ul class="list-group list-group-flush lista-marcas-custom">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Levi's <span class="badge bg-secondary rounded-pill">12</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Lacoste <span class="badge bg-secondary rounded-pill">8</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Ralph Lauren <span class="badge bg-secondary rounded-pill">5</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Wrangler <span class="badge bg-secondary rounded-pill">9</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Lee <span class="badge bg-secondary rounded-pill">14</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Adidas Originals <span class="badge bg-secondary rounded-pill">21</span></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <main class="col-lg-9">
+                <div class="mb-5 position-relative state-banner overflow-hidden rounded-3 shadow-sm">
+                    <img src="img/banner.jpg" class="img-fluid w-100 object-fit-cover" alt="Banner Colección" style="min-height: 200px; max-height: 320px;">
+                </div>
+
+                <h5 class="fw-bold border-start border-4 border-dark ps-2 mb-4 text-uppercase tracking-wider">Beneficios</h5>
+                <div class="row text-center mb-5 g-3">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card h-100 shadow-sm border-0 bg-white py-3 card-servicio">
+                            <div class="card-body">
+                                <i class="bi bi-shield-check text-dark fs-1"></i>
+                                <h6 class="fw-bold mt-2 mb-1 small text-uppercase">Garantía Total</h6>
+                                <p class="text-muted m-0 small">Productos 100% originales</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card h-100 shadow-sm border-0 bg-white py-3 card-servicio">
+                            <div class="card-body">
+                                <i class="bi bi-lightning-charge text-dark fs-1"></i>
+                                <h6 class="fw-bold mt-2 mb-1 small text-uppercase">Envío Express</h6>
+                                <p class="text-muted m-0 small">Gratis por compras mayores</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card h-100 shadow-sm border-0 bg-white py-3 card-servicio">
+                            <div class="card-body">
+                                <i class="bi bi-arrow-counterclockwise text-dark fs-1"></i>
+                                <h6 class="fw-bold mt-2 mb-1 small text-uppercase">Cambios Libres</h6>
+                                <p class="text-muted m-0 small">Hasta 14 días para gestionar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card h-100 shadow-sm border-0 bg-white py-3 card-servicio">
+                            <div class="card-body">
+                                <i class="bi bi-chat-square-text text-dark fs-1"></i>
+                                <h6 class="fw-bold mt-2 mb-1 small text-uppercase">Asesoría 24/7</h6>
+                                <p class="text-muted m-0 small">Canal de atención premium</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h5 class="fw-bold border-start border-4 border-dark ps-2 mb-4 text-uppercase tracking-wider">Destacados de la Semana</h5>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                    
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm card-producto position-relative">
+                            <span class="position-absolute top-0 start-0 bg-danger text-white text-uppercase small fw-bold px-2 py-1 m-2 rounded-1 z-1" style="font-size: 0.7rem;">-34%</span>
+                            <img src="img/polotommy.jpg" class="card-img-top p-2 rounded-4" alt="Polo Tommy Hilfiger">
+                            <div class="card-body p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h6 class="card-title fw-semibold text-dark mb-1">Polo Tommy Hilfiger</h6>
+                                    <div class="text-warning mb-2" style="font-size: 0.8rem;">★★★★★ <span class="text-muted">(99)</span></div>
+                                </div>
+                                <div>
+                                    <p class="card-text mb-3">
+                                        <span class="text-dark fw-bold fs-5">S/ 125.00</span>
+                                        <span class="text-decoration-line-through text-muted small ms-1">S/ 190.00</span>
+                                    </p>
+                                    <button class="btn btn-outline-dark btn-sm w-100 fw-semibold text-uppercase py-2">Añadir al carro</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm card-producto position-relative">
+                            <span class="position-absolute top-0 start-0 bg-danger text-white text-uppercase small fw-bold px-2 py-1 m-2 rounded-1 z-1" style="font-size: 0.7rem;">Oferta</span>
+                            <img src="img/adidas.jpg" class="card-img-top p-2 rounded-4" alt="Zapatillas Adidas">
+                            <div class="card-body p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h6 class="card-title fw-semibold text-dark mb-1">Zapatillas Adidas</h6>
+                                    <div class="text-warning mb-2" style="font-size: 0.8rem;">★★★★★ <span class="text-muted">(55)</span></div>
+                                </div>
+                                <div>
+                                    <p class="card-text mb-3">
+                                        <span class="text-dark fw-bold fs-5">S/ 290.00</span>
+                                        <span class="text-decoration-line-through text-muted small ms-1">S/ 350.00</span>
+                                    </p>
+                                    <button class="btn btn-outline-dark btn-sm w-100 fw-semibold text-uppercase py-2">Añadir al carro</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm card-producto position-relative">
+                            <img src="img/pantalon.jpg" class="card-img-top p-2 rounded-4" alt="Pantalon">
+                            <div class="card-body p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h6 class="card-title fw-semibold text-dark mb-1">Pantalon Ralph Lauren</h6>
+                                    <div class="text-warning mb-2" style="font-size: 0.8rem;">★★★★★ <span class="text-muted">(35)</span></div>
+                                </div>
+                                <div>
+                                    <p class="card-text mb-3">
+                                        <span class="text-dark fw-bold fs-5">S/ 200.0</span>
+                                        <span class="text-decoration-line-through text-muted small ms-1">S/ 300.00</span>
+                                    </p>
+                                    <button class="btn btn-outline-dark btn-sm w-100 fw-semibold text-uppercase py-2">Añadir al carro</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm card-producto position-relative">
+                            <img src="img/gorra.jpg" class="card-img-top p-2 rounded-4" alt="Gorra Lacoste">
+                            <div class="card-body p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h6 class="card-title fw-semibold text-dark mb-1">Gorra Lacoste</h6>
+                                    <div class="text-warning mb-2" style="font-size: 0.8rem;">★★★★★ <span class="text-muted">(32)</span></div>
+                                </div>
+                                <div>
+                                    <p class="card-text mb-3">
+                                        <span class="text-dark fw-bold fs-5">S/ 120.00</span>
+                                        <span class="text-decoration-line-through text-muted small ms-1">S/ 200.00</span>
+                                    </p>
+                                    <button class="btn btn-outline-dark btn-sm w-100 fw-semibold text-uppercase py-2">Añadir al carro</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="bg-dark pt-5 pb-2 text-light-emphasis border-top border-warning border-3">
+        <div class="container text-center mb-5 pb-4 border-bottom border-secondary border-opacity-25">
+            <h5 class="fw-bold text-white text-uppercase tracking-wider">Únete al Club D' moda</h5>
+            <p class="text-secondary small">Recibe S/20 de descuento en tu primera compra y entérate antes que nadie de lanzamientos de edición limitada.</p>
+            <form class="d-flex justify-content-center mt-3 mx-auto" style="max-width: 500px;">
+                <input type="email" class="form-control bg-transparent text-white border-secondary me-2 rounded-1" placeholder="Tu dirección de correo">
+                <button type="submit" class="btn btn-warning fw-bold text-uppercase rounded-1 text-dark">Unirse</button>
+            </form>
+        </div>
+
+        <div class="container small">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h6 class="fw-bold text-white text-uppercase tracking-wider mb-3">D' moda Concept</h6>
+                    <p class="text-secondary lh-lg">Curaduría exclusiva de moda urbana, calzado y tendencias contemporáneas. Despachos rápidos para Lambayeque y todo el territorio nacional.</p>
+                </div>
+                <div class="col-md-4 mb-4 ps-md-5">
+                    <h6 class="fw-bold text-white text-uppercase tracking-wider mb-3">Centro de Atención</h6>
+                    <p class="text-secondary mb-2"><i class="bi bi-geo-alt me-2 text-warning"></i> Av. Pimentel Km. 4, Chiclayo</p>
+                    <p class="text-secondary mb-2"><i class="bi bi-envelope me-2 text-warning"></i> support@moda.com</p>
+                    <p class="text-secondary mb-0"><i class="bi bi-phone me-2 text-warning"></i> +51 (074) 494789</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h6 class="fw-bold text-white text-uppercase tracking-wider mb-3">Horarios de Operación</h6>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="mb-1">Lunes a Viernes — 09:00 a 21:00</li>
+                        <li class="mb-1">Sábados y Domingos — 09:00 a 19:00</li>
+                        <li>Feriados Nacionales — 10:00 a 14:00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center py-3 mt-4 border-top border-secondary border-opacity-10 text-secondary" style="font-size: 0.8rem;">
+            &copy; 2026 D' moda Store. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

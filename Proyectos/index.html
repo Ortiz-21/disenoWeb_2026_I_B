@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agendaJD.css">
+    <title>AgendaJD</title>
+</head>
+<body>
+
+    <main class="contenedor-principal">
+        <section class="tarjeta formulario-seccion">
+            <h2>Agregar Contacto</h2>
+            <form id="formularioContactos">
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="campo">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono">
+                </div>
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="campo">
+                    <label for="direccion">Dirección</label>
+                    <input type="text" id="direccion">
+                </div>
+                
+                <div class="grupo-botones">
+                    <button type="button" id="guardarBtn" class="btn btn-guardar">Guardar</button>
+                    <button type="button" id="buscarBtn" class="btn btn-buscar">Buscar</button>
+                    <button type="button" id="eliminarBtn" class="btn btn-eliminar">Eliminar</button>
+                    <button type="button" id="elimTodoBtn" class="btn btn-vaciar">Borrar todo</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="tarjeta contactos-seccion">
+            <div class="encabezado-lista">
+                <h2>Lista de Contactos</h2>
+                <button type="button" id="ordenarBtn" class="btn-ordenar">Sort: A-Z / Z-A</button>
+            </div>
+            
+            <div class="tabla-contenedor">
+                <table class="tabla-contactos">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Celular</th>
+                            <th>Email</th>
+                            <th>Dirección</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaContactos">
+                        </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/agendaJD.js"></script>
+    
+</body>
+</html>

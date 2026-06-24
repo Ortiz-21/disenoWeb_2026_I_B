@@ -1,0 +1,75 @@
+body {
+    background-color: #fcfcfc; 
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: #4f8fd0;
+}
+
+
+.tracking-wider {
+    letter-spacing: 0.08em;
+}
+
+
+.logo-vertice {
+    font-size: 2.2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #478ce2;
+}
+
+.logo-vertice i {
+    color: #0e1e5d; 
+    font-size: 1.8rem;
+    vertical-align: middle;
+}
+
+
+.hover-white:hover {
+    color: #ffffff !important;
+}
+
+
+.input-buscar-custom input:focus {
+    border-color: #3f8dda;
+    box-shadow: none;
+}
+
+
+.lista-marcas-custom .list-group-item {
+    transition: background-color 0.2s ease, padding-left 0.2s ease;
+    cursor: pointer;
+}
+
+.lista-marcas-custom .list-group-item:hover {
+    background-color: #4390dd;
+    padding-left: 1.25rem;
+}
+
+
+.card-producto {
+    transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-producto:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.08) !important;
+}
+
+
+.card-servicio {
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+.card-servicio:hover {
+    background-color: #fdfdfd;
+}
+
+
+.redes-sociales-iconos a {
+    transition: color 0.2s ease;
+}
+.redes-sociales-iconos a:hover {
+    color: #077fff !important;
+}

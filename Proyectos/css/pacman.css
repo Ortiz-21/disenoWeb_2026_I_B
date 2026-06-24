@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+.fan{
+    background-color: blueviolet;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation: animar;
+    animation-duration: 5s ;
+    animation-iteration-count: infinite;
+
+}
+.pac{
+    background-color: gold;
+    color: black;
+    position: absolute;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    animation: animo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes animo{
+     0%{
+        left: 0;
+        top: 0;
+    }
+    10%{
+        left: 100rem;
+        top: 0rem;
+        color: blueviolet;
+    }
+    30%{
+        left: 100rem;
+        top: 100rem;
+        color:white;
+    }
+    60%{
+        left: 0rem;
+        top: 100rem;
+        color: blueviolet;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+@keyframes animar{
+    0%{
+        left: 0;
+        top: 0;;
+    }
+    10%{
+        left: 100rem;
+        top: 0;
+        color: blueviolet;
+    }
+    30%{
+        left: 100rem;
+        top: 100rem;
+        color:white;
+    }
+    60%{
+        left: 0rem;
+        top: 100rem;
+        color: blueviolet;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
