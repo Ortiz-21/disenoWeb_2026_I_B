@@ -141,11 +141,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    function alternarOrden() {
-        ordenAscendente = !ordenAscendente;
-        ordenarBtn.textContent = ordenAscendente ? "Sort: A-Z" : "Sort: Z-A";
-        actualizarDatos();
-    }
     
     function limpiarCampos() {
         nombreInput.value = "";
